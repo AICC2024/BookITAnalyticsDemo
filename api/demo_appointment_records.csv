@@ -1,0 +1,101 @@
+id,patient_id,created_at,Status,Department,Provider Name,reach_out_medium,pt_language,Date,Time,Duplicate
+4885955,14081,2025-06-21 23:37:40,Booked,Behavioral Health,Dr. Johnson,Email,Spanish,07/14/2025,3:15 PM,
+4162154,14713,2025-06-19 23:37:40,Booked,Pediatrics,Dr. Patel,Email,Vietnamese,07/10/2025,1:00 PM,
+4660278,34684,2025-06-15 23:37:40,Declined,Behavioral Health,Dr. Patel,Email,English,07/16/2025,1:00 PM,✅
+4687100,80915,2025-07-08 23:37:40,Declined,Behavioral Health,Dr. Johnson,Phone,Vietnamese,07/15/2025,10:30 AM,✅
+4155860,26343,2025-07-04 23:37:40,Left Message,Pediatrics,Dr. Smith,Email,Vietnamese,07/10/2025,3:15 PM,
+4617944,89839,2025-07-07 23:37:40,Declined,Pediatrics,Dr. Patel,Email,English,07/14/2025,3:15 PM,✅
+4551312,91049,2025-06-24 23:37:40,No Response,Behavioral Health,Dr. Smith,Phone,English,07/15/2025,9:00 AM,✅
+4585413,89173,2025-06-17 23:37:40,Booked,Family Medicine,Dr. Patel,SMS,English,07/14/2025,1:00 PM,✅
+4530676,34167,2025-06-13 23:37:40,Left Message,Behavioral Health,Dr. Patel,Email,Spanish,07/11/2025,10:30 AM,
+4505262,33108,2025-07-06 23:37:40,No Response,Behavioral Health,Dr. Lee,Phone,French,07/13/2025,1:00 PM,✅
+4880056,15123,2025-06-24 23:37:40,Declined,Pediatrics,Dr. Smith,Phone,French,07/11/2025,10:30 AM,✅
+4024157,53969,2025-06-10 23:37:40,No Response,Family Medicine,Dr. Lee,SMS,Vietnamese,07/10/2025,3:15 PM,✅
+4679426,51948,2025-06-22 23:37:40,Left Message,Pediatrics,Dr. Smith,Email,Vietnamese,07/15/2025,10:30 AM,
+4156665,20537,2025-06-28 23:37:40,Booked,Pediatrics,Dr. Patel,Phone,Vietnamese,07/11/2025,3:15 PM,✅
+4223837,26268,2025-06-29 23:37:40,No Response,Pediatrics,Dr. Johnson,Phone,Vietnamese,07/17/2025,3:15 PM,✅
+4998897,92440,2025-07-07 23:37:40,Booked,Pediatrics,Dr. Smith,Email,French,07/11/2025,9:00 AM,✅
+4322549,64677,2025-07-10 23:37:40,Left Message,Behavioral Health,Dr. Smith,Email,Vietnamese,07/14/2025,1:00 PM,✅
+4332770,67058,2025-06-28 23:37:40,Booked,Behavioral Health,Dr. Johnson,Email,French,07/12/2025,1:00 PM,✅
+4986178,81029,2025-06-11 23:37:40,Booked,Pediatrics,Dr. Patel,Phone,French,07/16/2025,1:00 PM,✅
+4218939,18279,2025-06-15 23:37:40,Left Message,Behavioral Health,Dr. Smith,Email,Spanish,07/13/2025,9:00 AM,✅
+4626960,93754,2025-06-29 23:37:40,No Response,Family Medicine,Dr. Lee,SMS,French,07/15/2025,1:00 PM,✅
+4067307,27557,2025-06-28 23:37:40,No Response,Family Medicine,Dr. Patel,SMS,Spanish,07/17/2025,10:30 AM,
+4861875,63698,2025-07-07 23:37:40,Booked,Behavioral Health,Dr. Lee,Phone,English,07/11/2025,9:00 AM,✅
+4725953,40800,2025-06-27 23:37:40,Booked,Behavioral Health,Dr. Patel,SMS,English,07/14/2025,9:00 AM,
+4620634,37434,2025-06-21 23:37:40,Booked,Family Medicine,Dr. Johnson,Email,Vietnamese,07/12/2025,3:15 PM,✅
+4970415,95902,2025-06-19 23:37:40,Booked,Pediatrics,Dr. Smith,SMS,Vietnamese,07/14/2025,3:15 PM,✅
+4767652,58167,2025-06-15 23:37:40,Left Message,Pediatrics,Dr. Smith,Phone,Vietnamese,07/15/2025,9:00 AM,
+4771626,55617,2025-06-16 23:37:40,Declined,Behavioral Health,Dr. Lee,Phone,English,07/12/2025,1:00 PM,✅
+4148331,96422,2025-07-01 23:37:40,Left Message,Pediatrics,Dr. Patel,SMS,French,07/15/2025,3:15 PM,✅
+4429088,43863,2025-06-22 23:37:40,Declined,Family Medicine,Dr. Lee,Email,Spanish,07/17/2025,9:00 AM,✅
+4242911,42725,2025-06-13 23:37:40,Booked,Family Medicine,Dr. Johnson,Email,English,07/13/2025,3:15 PM,
+4656182,95096,2025-06-22 23:37:40,Left Message,Behavioral Health,Dr. Lee,SMS,Vietnamese,07/13/2025,1:00 PM,
+4236020,38608,2025-06-24 23:37:40,Declined,Behavioral Health,Dr. Lee,Email,English,07/12/2025,9:00 AM,
+4150677,31971,2025-07-05 23:37:40,Declined,Behavioral Health,Dr. Lee,Email,Vietnamese,07/15/2025,1:00 PM,
+4354932,58503,2025-07-03 23:37:40,Booked,Pediatrics,Dr. Patel,Phone,Spanish,07/17/2025,9:00 AM,
+4726310,29113,2025-07-03 23:37:40,Booked,Behavioral Health,Dr. Patel,Phone,Spanish,07/17/2025,1:00 PM,✅
+4090028,67335,2025-06-19 23:37:40,Declined,Behavioral Health,Dr. Patel,Email,Spanish,07/14/2025,9:00 AM,✅
+4411771,99390,2025-07-06 23:37:40,Declined,Behavioral Health,Dr. Johnson,Email,Spanish,07/14/2025,1:00 PM,✅
+4835740,80326,2025-07-07 23:37:40,No Response,Pediatrics,Dr. Patel,Email,French,07/16/2025,9:00 AM,
+4899847,62990,2025-07-02 23:37:40,Booked,Pediatrics,Dr. Smith,Phone,Vietnamese,07/13/2025,1:00 PM,✅
+4393592,90234,2025-06-27 23:37:40,No Response,Behavioral Health,Dr. Lee,SMS,Vietnamese,07/11/2025,10:30 AM,
+4626378,27341,2025-07-02 23:37:40,Declined,Family Medicine,Dr. Lee,SMS,Spanish,07/14/2025,9:00 AM,✅
+4739048,88271,2025-06-11 23:37:40,Declined,Pediatrics,Dr. Lee,Email,Vietnamese,07/15/2025,9:00 AM,✅
+4331942,50990,2025-07-02 23:37:40,No Response,Family Medicine,Dr. Lee,Phone,English,07/12/2025,10:30 AM,
+4449413,51072,2025-07-10 23:37:40,Declined,Behavioral Health,Dr. Patel,Phone,English,07/16/2025,9:00 AM,✅
+4339307,41860,2025-07-05 23:37:40,No Response,Family Medicine,Dr. Johnson,Email,French,07/14/2025,10:30 AM,✅
+4824048,29953,2025-06-16 23:37:40,Booked,Family Medicine,Dr. Smith,SMS,French,07/11/2025,1:00 PM,
+4689112,26715,2025-07-01 23:37:40,Declined,Behavioral Health,Dr. Smith,Email,Vietnamese,07/13/2025,1:00 PM,
+4324811,21768,2025-06-25 23:37:40,Left Message,Behavioral Health,Dr. Lee,SMS,Spanish,07/13/2025,3:15 PM,
+4450967,61104,2025-06-17 23:37:40,Booked,Behavioral Health,Dr. Lee,SMS,English,07/16/2025,9:00 AM,
+4374107,18245,2025-06-22 23:37:40,Declined,Behavioral Health,Dr. Lee,Phone,English,07/17/2025,9:00 AM,✅
+4367835,11225,2025-07-02 23:37:40,Booked,Pediatrics,Dr. Lee,SMS,English,07/12/2025,3:15 PM,
+4551148,77015,2025-06-21 23:37:40,Booked,Pediatrics,Dr. Smith,Phone,English,07/11/2025,10:30 AM,
+4305582,20924,2025-06-21 23:37:40,Declined,Behavioral Health,Dr. Johnson,Email,Spanish,07/17/2025,3:15 PM,✅
+4876277,74756,2025-06-14 23:37:40,No Response,Behavioral Health,Dr. Johnson,SMS,Vietnamese,07/15/2025,10:30 AM,✅
+4128856,64323,2025-07-06 23:37:40,Left Message,Pediatrics,Dr. Lee,Email,French,07/10/2025,3:15 PM,✅
+4822102,82981,2025-06-14 23:37:40,Declined,Pediatrics,Dr. Lee,Phone,Spanish,07/13/2025,1:00 PM,✅
+4068987,34468,2025-06-11 23:37:40,Declined,Family Medicine,Dr. Lee,Email,French,07/12/2025,1:00 PM,✅
+4410588,84440,2025-07-04 23:37:40,Declined,Pediatrics,Dr. Lee,SMS,English,07/15/2025,9:00 AM,✅
+4985743,37144,2025-07-08 23:37:40,No Response,Family Medicine,Dr. Johnson,Phone,Spanish,07/17/2025,9:00 AM,✅
+4409119,31909,2025-06-16 23:37:40,Declined,Pediatrics,Dr. Johnson,SMS,Vietnamese,07/17/2025,10:30 AM,✅
+4224011,59189,2025-07-09 23:37:40,Left Message,Pediatrics,Dr. Johnson,SMS,Spanish,07/12/2025,10:30 AM,✅
+4842523,91580,2025-06-26 23:37:40,Left Message,Pediatrics,Dr. Johnson,SMS,French,07/15/2025,10:30 AM,
+4495546,46042,2025-06-18 23:37:40,No Response,Pediatrics,Dr. Smith,Phone,Vietnamese,07/10/2025,9:00 AM,
+4013255,98026,2025-06-30 23:37:40,No Response,Pediatrics,Dr. Johnson,Phone,French,07/10/2025,10:30 AM,
+4848204,49240,2025-06-21 23:37:40,Left Message,Family Medicine,Dr. Johnson,Phone,French,07/13/2025,10:30 AM,✅
+4479633,89078,2025-06-20 23:37:40,No Response,Pediatrics,Dr. Lee,Phone,Vietnamese,07/16/2025,9:00 AM,
+4431039,25894,2025-06-10 23:37:40,Declined,Behavioral Health,Dr. Johnson,SMS,Spanish,07/15/2025,9:00 AM,✅
+4017516,77916,2025-06-28 23:37:40,Declined,Family Medicine,Dr. Lee,Email,Spanish,07/14/2025,3:15 PM,
+4972777,40273,2025-06-19 23:37:40,Declined,Family Medicine,Dr. Patel,SMS,French,07/12/2025,3:15 PM,
+4722217,88381,2025-06-24 23:37:40,No Response,Pediatrics,Dr. Patel,SMS,Vietnamese,07/15/2025,10:30 AM,✅
+4052684,26019,2025-06-13 23:37:40,Booked,Pediatrics,Dr. Patel,Phone,Vietnamese,07/11/2025,1:00 PM,
+4417954,98883,2025-07-07 23:37:40,Left Message,Pediatrics,Dr. Johnson,Email,English,07/15/2025,9:00 AM,✅
+4012312,87089,2025-06-13 23:37:40,Left Message,Family Medicine,Dr. Patel,Email,English,07/15/2025,1:00 PM,
+4689800,41440,2025-06-30 23:37:40,Left Message,Pediatrics,Dr. Lee,SMS,French,07/17/2025,9:00 AM,✅
+4163705,21969,2025-06-15 23:37:40,Declined,Family Medicine,Dr. Patel,Phone,Spanish,07/17/2025,1:00 PM,✅
+4334073,88455,2025-06-26 23:37:40,Declined,Pediatrics,Dr. Patel,Phone,English,07/17/2025,3:15 PM,✅
+4831746,21217,2025-07-09 23:37:40,Left Message,Family Medicine,Dr. Smith,Phone,English,07/17/2025,3:15 PM,✅
+4596506,71284,2025-06-13 23:37:40,Booked,Behavioral Health,Dr. Lee,Email,English,07/12/2025,1:00 PM,✅
+4007368,98701,2025-06-12 23:37:40,Left Message,Family Medicine,Dr. Johnson,SMS,Spanish,07/15/2025,9:00 AM,
+4077844,55787,2025-06-19 23:37:40,No Response,Behavioral Health,Dr. Lee,SMS,Vietnamese,07/15/2025,3:15 PM,✅
+4857792,36995,2025-07-09 23:37:40,Declined,Pediatrics,Dr. Patel,Phone,Vietnamese,07/15/2025,10:30 AM,
+4271653,86991,2025-06-14 23:37:40,Left Message,Behavioral Health,Dr. Patel,Phone,Spanish,07/15/2025,10:30 AM,✅
+4105806,81323,2025-06-10 23:37:40,Left Message,Family Medicine,Dr. Johnson,Email,Vietnamese,07/16/2025,3:15 PM,
+4793520,50513,2025-06-24 23:37:40,Booked,Behavioral Health,Dr. Lee,SMS,English,07/16/2025,9:00 AM,✅
+4248404,56406,2025-06-23 23:37:40,Declined,Pediatrics,Dr. Patel,Phone,French,07/14/2025,9:00 AM,
+4053308,96683,2025-06-21 23:37:40,Booked,Pediatrics,Dr. Lee,Email,French,07/12/2025,9:00 AM,
+4784036,35898,2025-07-06 23:37:40,Booked,Family Medicine,Dr. Johnson,Email,Vietnamese,07/12/2025,3:15 PM,✅
+4915634,29869,2025-06-30 23:37:40,No Response,Behavioral Health,Dr. Smith,Phone,English,07/12/2025,1:00 PM,
+4209907,65961,2025-06-23 23:37:40,Left Message,Pediatrics,Dr. Johnson,Email,French,07/14/2025,1:00 PM,
+4125693,89877,2025-07-05 23:37:40,No Response,Behavioral Health,Dr. Patel,Phone,Spanish,07/16/2025,10:30 AM,
+4785593,38520,2025-06-28 23:37:40,Declined,Family Medicine,Dr. Patel,SMS,French,07/15/2025,10:30 AM,
+4262732,31229,2025-07-06 23:37:40,Declined,Pediatrics,Dr. Johnson,Phone,Spanish,07/10/2025,1:00 PM,
+4198355,67962,2025-06-14 23:37:40,No Response,Family Medicine,Dr. Patel,SMS,Vietnamese,07/17/2025,9:00 AM,✅
+4546315,32522,2025-06-29 23:37:40,Booked,Behavioral Health,Dr. Smith,Phone,Spanish,07/13/2025,3:15 PM,
+4149086,82767,2025-06-27 23:37:40,No Response,Family Medicine,Dr. Johnson,Email,English,07/11/2025,1:00 PM,✅
+4543860,98108,2025-07-04 23:37:40,Declined,Behavioral Health,Dr. Patel,Email,Vietnamese,07/13/2025,10:30 AM,
+4336500,44392,2025-07-07 23:37:40,Left Message,Pediatrics,Dr. Smith,SMS,French,07/12/2025,1:00 PM,✅
+4887904,68871,2025-07-10 23:37:40,No Response,Pediatrics,Dr. Patel,Email,English,07/17/2025,3:15 PM,
+4321516,16423,2025-06-27 23:37:40,Booked,Family Medicine,Dr. Smith,Email,French,07/16/2025,9:00 AM,
