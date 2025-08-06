@@ -356,6 +356,7 @@ def ai_show_rate():
     import os
 
     months = request.args.getlist("months")
+    print(f"📅 Received months: {months}")
     if not months:
         return jsonify({"error": "At least one month must be specified as 'YYYY-MM'."}), 400
 
@@ -399,10 +400,12 @@ def ai_show_rate():
                 except ValueError:
                     try:
                         appt_date = datetime.strptime(appt_date_str, "%Y-%m-%dT%H:%M:%S")
-                    except ValueError:
-                        continue  # skip rows with unrecognized date formats
-        except Exception:
-            continue  # skip bad rows silently
+                    except ValueError as ve:
+                        print(f"❌ Failed to parse: {appt_date_str} — {ve}")
+                        continue
+        except Exception as e:
+            print(f"❌ Skipping row due to unexpected error: {e}")
+            continue
 
         if appt_date.date() >= today:          # exclude today/future unless status already Kept
             continue
