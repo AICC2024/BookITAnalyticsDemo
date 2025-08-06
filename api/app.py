@@ -344,6 +344,7 @@ def login():
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
+
 @app.route('/ai-show-rate')
 def ai_show_rate():
     """
@@ -424,6 +425,28 @@ def ai_show_rate():
         "kept": kept,
         "show_rate": show_rate
     })
+
+# --- Debugging AWS environment and credentials ---
+
+# Debug environment variables route
+@app.route("/debug-env")
+def debug_env():
+    return jsonify({
+        "AWS_ACCESS_KEY_ID": os.getenv("AWS_ACCESS_KEY_ID"),
+        "AWS_SECRET_ACCESS_KEY": os.getenv("AWS_SECRET_ACCESS_KEY"),
+        "REGION": os.getenv("REGION")
+    })
+
+# Debug AWS credentials route
+@app.route("/debug-aws")
+def debug_aws():
+    import boto3
+    try:
+        client = boto3.client("sts", region_name=os.getenv("REGION", "us-east-1"))
+        identity = client.get_caller_identity()
+        return jsonify(identity)
+    except Exception as e:
+        return jsonify({"error": str(e)})
 
 if __name__ == '__main__':
     app.run(debug=True)
