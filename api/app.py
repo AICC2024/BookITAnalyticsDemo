@@ -22,7 +22,10 @@ USERS = {}
 RESET_TOKENS = {}  # email -> { token, expires_at }
 
 app = Flask(__name__)
-CORS(app, supports_credentials=True, origins=os.getenv("FRONTEND_URL", "*"))
+CORS(app, supports_credentials=True, origins=[
+    "https://bookitanalyticsdemo.onrender.com",
+    "http://localhost:3000"
+])
 
 import smtplib
 from email.mime.text import MIMEText
