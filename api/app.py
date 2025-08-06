@@ -392,9 +392,15 @@ def ai_show_rate():
         appt_date_str = (item.get("appointment_date") or "").strip()
         try:
             try:
-                appt_date = datetime.strptime(appt_date_str, "%m/%d/%YT%H:%M:%S")
+                appt_date = datetime.strptime(appt_date_str, "%m/%d/%Y %H:%M:%S")
             except ValueError:
-                appt_date = datetime.strptime(appt_date_str, "%Y-%m-%dT%H:%M:%S")
+                try:
+                    appt_date = datetime.strptime(appt_date_str, "%m/%d/%YT%H:%M:%S")
+                except ValueError:
+                    try:
+                        appt_date = datetime.strptime(appt_date_str, "%Y-%m-%dT%H:%M:%S")
+                    except ValueError:
+                        continue  # skip rows with unrecognized date formats
         except Exception:
             continue  # skip bad rows silently
 
