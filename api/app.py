@@ -444,6 +444,8 @@ def debug_aws():
     try:
         client = boto3.client("sts", region_name=os.getenv("REGION", "us-east-1"))
         identity = client.get_caller_identity()
+        print("✅ Successfully retrieved AWS identity:")
+        print(identity)
         return jsonify(identity)
     except Exception as e:
         return jsonify({"error": str(e)})
