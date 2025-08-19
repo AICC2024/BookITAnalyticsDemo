@@ -222,13 +222,32 @@ useEffect(() => {
           setTotalSent(sentCount);
 
           const bookedRows = filteredData.filter(row => row.Status === 'Booked');
-          const uniqueBooked = new Set(bookedRows.map(row =>
-            `${row['Patient ID']}_${row['Date']}_${row['Time']}_${row['Status']}`
-          ));
-          const bookedCount = uniqueBooked.size;
+          
+          // Deduplicate booked rows by patient/date/time/status
+          const uniqueKeys = new Set();
+          let bookedCount = 0;
+          
+          // Revenue by effective date: before 2025-07-01 -> 154; on/after 2025-07-01 -> 175
+          const RATE_CHANGE_DATE = '2025-07-01';
+          const OLD_RATE = 154;
+          const NEW_RATE = 175;
+          let revenueSum = 0;
+          
+          bookedRows.forEach(row => {
+            const key = `${row['Patient ID']}_${row['Date']}_${row['Time']}_${row['Status']}`;
+            if (!uniqueKeys.has(key)) {
+              uniqueKeys.add(key);
+              bookedCount += 1;
+              
+              // row['Date'] expected as 'YYYY-MM-DD'; ISO string compare works
+              const rate = (row['Date'] && row['Date'] >= RATE_CHANGE_DATE) ? NEW_RATE : OLD_RATE;
+              revenueSum += rate;
+            }
+          });
+          
           setTotalBooked(bookedCount);
           setPercentBooked(sentCount ? ((bookedCount / sentCount) * 100).toFixed(1) : 0);
-          setTotalRevenue(bookedCount * 154);
+          setTotalRevenue(revenueSum);
 
           const langCounts = {};
           const mediumCounts = {};
@@ -365,6 +384,7 @@ useEffect(() => {
                   )}
                 </div>
 
+                {/*
                 <div style={{ display: 'flex', flexDirection: 'column' }}>
                   <label style={{ marginBottom: 6 }}>AI Show Rate Mode:</label>
                   <select
@@ -432,6 +452,7 @@ useEffect(() => {
                     )}
                   </div>
                 </div>
+                */}
               </div>
               {/* Top-level KPI summary cards */}
               <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '30px' }}>
@@ -479,6 +500,7 @@ useEffect(() => {
                   <h3 style={{ margin: 0 }}>Estimated Revenue</h3>
                   <p style={{ fontSize: '1.5rem', margin: '8px 0 0' }}>${totalRevenue.toLocaleString()}</p>
                 </div>
+                {/* 
                 <div style={{
                   flex: 1,
                   backgroundColor: '#e8f5e9',
@@ -496,6 +518,7 @@ useEffect(() => {
                     {aiShowRate?.total_booked} booked / {aiShowRate?.total_kept} kept
                   </p>
                 </div>
+                */}
               </div>
               <h2>% of Bookings by Status</h2>
               <ResponsiveContainer width="100%" height={300}>
