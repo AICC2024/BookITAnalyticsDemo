@@ -24,7 +24,7 @@ const ProtectedRoute = ({ children }) => {
 
 function App() {
   // Label and Logo state
-  const [label, setLabel] = useState(localStorage.getItem("site_label") || "CARETEAM Plus");
+  const [label, setLabel] = useState(localStorage.getItem("site_label") || "Revenue without lifting a finger!");
   const [logoUrl, setLogoUrl] = useState(localStorage.getItem("site_logo") || "/careteam_logo_v2.png");
   const baseUrl = process.env.REACT_APP_API_BASE_URL || 'https://scheduling-dashboard-backend.onrender.com';
   console.log("🎯 LIVE DEMO VERSION OF APP.JS");
